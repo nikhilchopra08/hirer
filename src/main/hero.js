@@ -11,18 +11,6 @@ import Heading from './heading';
 
 const Hero = () => {
 
-  const [isVisible, setIsVisible] = useState(true);
-
-  useEffect(() => {
-    // Toggle visibility every 3 seconds
-    const intervalId = setInterval(() => {
-      setIsVisible(prev => !prev);
-    }, 4000);
-
-    // Clear interval on component unmount to prevent memory leaks
-    return () => clearInterval(intervalId);
-  }, []);
-
   return (
     <>
       <div className='background'>

@@ -11,13 +11,13 @@ function App() {
   return (
     <div>
       <Navbar/>
-      {/* <Hero/> */}
+      <Hero/>
       {/* <AnimatedComponent/> */}
       {/* <Login/> */}
       {/* <Job/> */}
       {/* <Heading/> */}
       {/* <Cards/> */}
-      <JobRegister/>
+      {/* <JobRegister/> */}
     </div>
   );
 }

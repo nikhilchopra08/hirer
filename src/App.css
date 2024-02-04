@@ -193,6 +193,7 @@ body {
 .Cards{
   display: flex;
 gap: 14%;
+position: absolute;
 }
 
 .Card {
@@ -200,11 +201,15 @@ gap: 14%;
   position: absolute;
   height: 329px;
   /* right: 38rem; */
-  top: 18rem;
+  top: 4rem;
   border-radius: 15px;
   background-color: rgba(57, 50, 153, 0.15);
   left: 12rem;
   /* Setting opacity for background color */
+}
+
+.c{
+  margin: 0 18vw;
 }
 
 .body {
@@ -212,11 +217,15 @@ gap: 14%;
   bottom: 7rem;
 }
 
+.employer-div{
+  width: 20vw;
+}
+
 .employer {
   height: 21rem;
   position: relative;
-  top: 14rem;
-  left: 8rem;
+  top: 4rem;
+right: 8rem;
   z-index: 1;
   transform: scaleX(-1);
 }

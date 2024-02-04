@@ -42,13 +42,14 @@ const Cards = () => {
       <div className="c">
         <div className="JobSeeker-div">
           <img className="h-md:w-48 jobSeeker" src={jobSeeker} alt="Card image"/>
-        </div>
+
         <Card
           title="For Job Seekers"
           description="Find your dream job with us!!"
           arrowImage={arrowR}
           arrowRotation={180}
         />
+                </div>
       </div>
     </div>
   );
